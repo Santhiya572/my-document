@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, j, n;
+
+    /* Code Block To Get The Input from the user */
+    printf("Enter The Number Of Rows To Print Right Triangle Star Pattern: ");
+    scanf("%d", &n);
+
+    for(i=1; i<=n; i++)
+    {
+       
+        for(j=1; j<=i; j++)
+        {
+            printf("*");
+        }
+
+        
+        printf("\n");
+    }
+
+    return 0;
+}
+
+Output:
+Right Triangle
+
